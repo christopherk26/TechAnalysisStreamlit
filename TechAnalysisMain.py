@@ -1,11 +1,8 @@
+
 import streamlit as st
 import yfinance as yf
 import pandas as pd
-import base64
-import os
 import plotly.graph_objects as go
-import ollama
-import tempfile
 from datetime import date
 
 st.set_page_config(layout="wide")
